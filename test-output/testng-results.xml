@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-16T18:14:07 GMT+03:00" name="Default suite" finished-at="2025-05-16T18:14:13 GMT+03:00" duration-ms="5352">
+    <groups>
+    </groups>
+    <test started-at="2025-05-16T18:14:07 GMT+03:00" name="Default test" finished-at="2025-05-16T18:14:13 GMT+03:00" duration-ms="5352">
+      <class name="Database.Database.AppTest">
+        <test-method is-config="true" signature="MySetup()[pri:0, instance:Database.Database.AppTest@3243b914]" started-at="2025-05-16T18:14:07 GMT+03:00" name="MySetup" finished-at="2025-05-16T18:14:12 GMT+03:00" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySetup -->
+        <test-method signature="ReadDatabaseAndRegister()[pri:3, instance:Database.Database.AppTest@3243b914]" started-at="2025-05-16T18:14:13 GMT+03:00" name="ReadDatabaseAndRegister" finished-at="2025-05-16T18:14:13 GMT+03:00" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadDatabaseAndRegister -->
+      </class> <!-- Database.Database.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
