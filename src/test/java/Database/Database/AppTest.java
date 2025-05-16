@@ -47,8 +47,8 @@ public class AppTest {
 		
 	}
 	@Test(priority = 3, enabled = false)
-	public void Database() throws SQLException {
-		String Query ="UPDATE customers SET creditLimit = 75000 WHERE customerNumber = 999;";
+	public void DeleteDatabase() throws SQLException {
+		String Query ="DELETE FROM customers WHERE customerNumber = 999;";
 		stmt=con.createStatement();
 		int RowEfected =stmt.executeUpdate(Query);
 		System.out.println(RowEfected);
@@ -56,8 +56,8 @@ public class AppTest {
 	}
 	
 	@Test(priority = 4)
-	public void DeleteReadDatabaseAndRegister() throws SQLException {
-	    String Query = "DELETE FROM customers WHERE customerNumber = 999;";
+	public void ReadDatabaseAndRegister() throws SQLException {
+	    String Query = "SELECT * FROM customers WHERE customerNumber = 999;";
 	    stmt = con.createStatement();
 	    rs = stmt.executeQuery(Query);
 
